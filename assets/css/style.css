@@ -157,7 +157,7 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body {     
-  background-image: url('./assets/images/background-pic1.png');
+  /* background-image: url('assets/images/background-pic1.png'); */
   background-color: hsl(0, 0%, 0%) 3%;
 }
 
