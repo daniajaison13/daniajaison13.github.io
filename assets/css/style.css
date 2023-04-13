@@ -157,9 +157,8 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body {     
-  background-image: url("/Users/spartan/eclipse-workspace/daniajaison13.github.io/assets/images/background-pic1.png");
-  background-color: hsl(261, 60%, 77%) 3%;
-  background-size: 210vh;
+  background-image: url('./assets/images/background-pic1.png');
+  background-color: hsl(0, 0%, 0%) 3%;
 }
 
 
@@ -1815,4 +1814,3 @@ textarea.form-input::-webkit-resizer { display: none; }
   .skill-icon-text{
     font-size: 13px;
   }
-  
