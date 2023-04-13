@@ -2,30 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Dania Jaison
+Dania Jaison
+Software Engineer
 
 Show Contacts
 
 Email
-richard@example.com
-
-Phone
-+1 (213) 352-2795
-
-Birthday
-June 23, 1982
+daniajaison@gmail.com
 
 Location
-Sacramento, California, USA
+San Jose, California, USA
 
 # navbar
 
 About
 Resume
 Portfolio
-Blog
 Contact
 
 # about

@@ -163,8 +163,6 @@ body {
 
 
 
-
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -1220,7 +1218,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 520px;
+    width: 620px;
     margin-inline: auto;
     padding: 30px;
   }
@@ -1236,13 +1234,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .icon-box {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     border-radius: 12px;
     font-size: 18px;
   }
-
-
 
   /**
    * #MAIN
@@ -1748,7 +1744,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contact-info :is(.contact-link) {
     white-space: nowrap;
-    overflow: hidden;
+    overflow: inherit;
     text-overflow: ellipsis;
   }
 
