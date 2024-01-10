@@ -2,220 +2,189 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
   <title>Dania Jaison</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/DJ.png" type="image/x-icon">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: Nov 17 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body id="bg">
+<body>
 
-  <!--
-    - #MAIN
-  -->
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-  <main>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
-    <!--
-      - #SIDEBAR
-    -->
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Dania Jaison</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
 
-    <aside class="sidebar" data-sidebar>
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
 
-      <div class="sidebar-info">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Dania Jaison</h1>
+      <p>I'm <span class="typed" data-typed-items="Software Engineer, Web Developer"></span></p>
+    </div>
+  </section><!-- End Hero -->
 
-        <figure class="avatar-box">
-          <img src="./assets/images/profilepic.jpg" alt="Dania Jaison">
-        </figure>
+  <main id="main">
 
-        <div class="info-content">
-          <h1 class="name" title="Dania Jaison">Dania Jaison</h1>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
 
-          <p class="title">Software Engineer</p>
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Hi! I'm Dania Jaison, a passionate graduate student at San Jose State University (SJSU) where I am pursuing a Master of Science (MS) in Computer Science. With experience as a Software Engineer at Cerner Corporation, I have honed my skills in utilizing technologies such as Spring Boot, Javascript, Django, and Angular.js as part of the Infrastructure Engineering team. I am a proud alumnus of Christ University, Bangalore, India, where I graduated with a B.Tech. in Computer Science in 2021. Get ready to explore my journey and discover the projects I've created along the way.</p>
+          <p>
+            I am looking forward to pursuing a challenging career at a value-driven organization where I can effectively use my skills as a Software Engineer and that offers professional growth while being resourceful and innovative.
+          </p>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Software Engineer</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>13 April 1998</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://daniajaison13.github.io/</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+1 925 660 9488</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>San Jose, CA</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>MS in Computer Science</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>daniajaison@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Add text -->
+          </div>
+        </div>
 
       </div>
+    </section><!-- End About Section -->
 
-      <div class="sidebar-info_more">
+    <!-- ======= Facts Section ======= -->
+    <!-- <section id="facts" class="facts">
+      <div class="container">
 
-        <div class="separator"></div>
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
 
-        <ul class="contacts-list">
+        <div class="row no-gutters">
 
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> consequuntur quae</p>
             </div>
+          </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:daniajaison@gmail.com" class="contact-link">daniajaison@gmail.com</a>
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
             </div>
+          </div>
 
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
             </div>
+          </div>
 
-            <div class="contact-info">
-              <p class="contact-title">LinkedIn</p>
-
-              <a href="https://www.linkedin.com/in/dania-jaison-407935159/" target="_blank"
-                class="contact-link">linkedin.com/dania-jaison</a>
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
             </div>
+          </div>
 
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>San Jose, California, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <!-- <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.facebook.com/profile.php?id=100008351346994" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul> -->
+        </div>
 
       </div>
+    </section> -->
+    <!-- End Facts Section -->
 
-    </aside>
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
 
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
 
+        <div class="row skills-content">
 
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Welcome to my portfolio website! I'm Dania Jaison, a passionate graduate student at San Jose State University (SJSU) where I am pursuing a Master of Science (MS) in Computer Science. 
-            With experience as a Software Engineer at Cerner Corporation, I have honed my skills in utilizing technologies such as Spring Boot, Javascript, Django, and Angular.js as part of the Infrastructure Engineering team. 
-            I am a proud alumnus of Christ University, Bangalore, India, where I graduated with a B.Tech. in Computer Science in 2021. 
-            Get ready to explore my journey and discover the projects I've created along the way.
-          </p>
-
-          <p>
-            I am looking forward to pursuing a challenging career at a value-driven organization where I can effectively
-            use my skills as a Software Engineer and that offers professional growth while being resourceful and
-            innovative.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-          <header>
-            <h2 class="h2 article-title">Skills</h2>
-          </header>
-          <div>
-            <h4><i >Programming Languages</i></h4>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <h5 class="heading"><i >Programming Languages</i></h5>
             <div class="icon-section">
               <div  class="skill"><span  title="Java"><i class='bx bxl-java'></i>
                 <p class="skill-icon-text">Java</p></span></div>
@@ -235,24 +204,11 @@
                 
               <div  class="skill"><span  title="CSS"><i class='bx bxl-css3' ></i>
                 <p class="skill-icon-text">CSS</p></span></div>
+              </div>
+              </div>
 
-              <div  class="skill"><span  title="MySQL">
-                <img class="skill-icon" src="./assets/images/icon-mysql.svg" loading="lazy">
-                <p class="skill-icon-text">MySQL</p></span></div>
-
-              <div  class="skill"><span  title="Hadoop">
-                <img class="skill-icon" src="./assets/images/icon-hadoop.svg" loading="lazy">
-                <p class="skill-icon-text">Hadoop</p></span></div>
-
-              <div  class="skill"><span  title="ElasticSearch">
-                <img class="skill-icon" src="./assets/images/icon-elasticsearch.svg"loading="lazy">
-                <p class="skill-icon-text">ElasticSearch</p></span></div>
-
-              <div  class="skill"><span  title="Redis">
-                <img class="skill-icon" src="./assets/images/icon-redis.svg" loading="lazy">
-                  <p class="skill-icon-text">Redis</p></span></div>
-            </div>
-            <h4><i >Frameworks</i></h4>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <h5 class="heading"><i>Frameworks</i></h5>
             <div class="icon-section">
               <div  class="skill"><span  title="Spring Boot"><i class='bx bxl-spring-boot' ></i>
                 <p class="skill-icon-text">Spring Boot</p></span></div>
@@ -267,471 +223,457 @@
                   <p class="skill-icon-text">Bootstrap</p></span></div>
                
               <div  class="skill"><span  title="NodeJS"><i class='bx bxl-nodejs' ></i>
-                  <p class="skill-icon-text">NodeJS</p></span></div>
+                  <p class="skill-icon-text">Node.js</p></span></div>
             </div>
-            <h4><i >Others...and more!</i></h4>
+
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <h5 class="heading"><i>Databases</i></h5>
             <div class="icon-section">
-              <div  class="skill"><span  title="Git"><i class='bx bxl-git' ></i>
+              <div  class="skill"><span  title="PostgreSQL">
+                <img class="skill-icon" src="./assets/img/icons/icon-postgresql.svg" loading="lazy">
+                <p class="skill-icon-text">PostgreSQL</p></span></div>
+
+            <div  class="skill"><span  title="MySQL">
+              <img class="skill-icon" src="./assets/img/icons/icon-mysql.svg" loading="lazy">
+              <p class="skill-icon-text">MySQL</p></span></div>
+
+            <div  class="skill"><span  title="Hadoop">
+              <img class="skill-icon" src="./assets/img/icons/icon-hadoop.svg" loading="lazy">
+              <p class="skill-icon-text">Hadoop</p></span></div>
+
+            <div  class="skill"><span  title="ElasticSearch">
+              <img class="skill-icon" src="./assets/img/icons/icon-elasticsearch.svg"loading="lazy">
+              <p class="skill-icon-text">ElasticSearch</p></span></div>
+
+            <div  class="skill"><span  title="Redis">
+              <img class="skill-icon" src="./assets/img/icons/icon-redis.svg" loading="lazy">
+                <p class="skill-icon-text">Redis</p></span></div>
+          </div>
+        </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <h5 class="heading"><i >Others...and more!</i></h5>
+            <div class="icon-section">
+
+              <div  class="skill"><span  title="Docker">
+                <img class="skill-icon" src="./assets/img/icons/icon-docker.svg" loading="lazy">
+                  <p class="skill-icon-text">Docker</p></span></div>
+
+              <div  class="skill"><span  title="Kubernetes">
+                <img class="skill-icon" src="./assets/img/icons/icon-kubernetes.svg" loading="lazy">
+                  <p class="skill-icon-text">Kubernetes</p></span></div>
+              
+              <div  class="skill"><span  title="Git">
+                <img class="skill-icon" src="./assets/img/icons/icon-git.svg" loading="lazy">
                 <p class="skill-icon-text">Git</p></span></div>
 
-                <div  class="skill"><span  title="Github"><i class='bx bxl-github' ></i>
+                <div  class="skill"><span  title="Github">
+                  <img class="skill-icon" src="./assets/img/icons/icon-github.svg" loading="lazy">
                   <p class="skill-icon-text">Github</p></span></div>
 
                 <div  class="skill"><span  title="Jira">
-                  <img class="skill-icon" src="./assets/images/icon-jira.svg" loading="lazy">
+                  <img class="skill-icon" src="./assets/img/icons/icon-jira.svg" loading="lazy">
                     <p class="skill-icon-text">Jira</p></span></div>
 
-                    <div  class="skill"><span  title="PowerBI">
-                      <img class="skill-icon" src="./assets/images/icon-power-bi.svg" loading="lazy">
-                      <p class="skill-icon-text">PowerBI</p></span></div>
+                    <!-- <div  class="skill"><span  title="PowerBI">
+                      <img class="skill-icon" src="./assets/img/icons/icon-power-bi.svg" loading="lazy">
+                      <p class="skill-icon-text">PowerBI</p></span></div> -->
 
                       <div  class="skill"><span  title="Grafana">
-                        <img class="skill-icon" src="./assets/images/icon-grafana.svg" loading="lazy">
+                        <img class="skill-icon" src="./assets/img/icons/icon-grafana.svg" loading="lazy">
                         <p class="skill-icon-text">Grafana</p></span></div>
 
-                        <div  class="skill"><span  title="Docker"><i class='bx bxl-docker' ></i>
-                          <p class="skill-icon-text">Docker</p></span></div>
-
                     <div  class="skill"><span  title="Prometheus">
-                      <img class="skill-icon" src="./assets/images/icon-prometheus.svg" loading="lazy">
+                      <img class="skill-icon" src="./assets/img/icons/icon-prometheus.svg" loading="lazy">
                        <p class="skill-icon-text">Prometheus</p></span></div>
                     
-                    <div  class="skill"><span  title="AWS"><i class="fa-brands fa-aws"></i>
-                        <p class="skill-icon-text">AWS</p></span></div>
-
+                    <div  class="skill"><span  title="AWS">
+                      <img class="skill-icon" src="./assets/img/icons/icon-aws.svg" loading="lazy">
+                      <p class="skill-icon-text">AWS</p></span></div>
+                    
                     <div  class="skill"><span  title="Postman">
-                      <img class="skill-icon" src="./assets/images/icon-postman.svg" loading="lazy">
+                      <img class="skill-icon" src="./assets/img/icons/icon-postman.svg" loading="lazy">
                         <p class="skill-icon-text">Postman</p></span></div>
             </div>
           </div>
 
-        </section>
-
-
-
-
-        <!--
-          - testimonials modal -  To be deleted
-        -->
-
-        <div class="modal-container" data-modal-container>
-          <div class="overlay" data-overlay></div>
-          <section class="testimonials-modal">
-            <button class="modal-close-btn" data-modal-close-btn>
-            </button>
-          </section>
         </div>
-      </article>
 
+      </div>
+    </section><!-- End Skills Section -->
 
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
 
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
 
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Science in Computer Science</h4>
+              <h5>2020 - 2022</h5>
+              <p><em>San Jose State University, San Jose, CA</em></p>
+              <p>Coursework: Design and Analysis of Algorithm, Advanced Parallel Processing, Database System Principles, Distributed Computing, Computer Communications System, Topics in AI, Mobile Device Development, ML techniques on Graphs</p>
             </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">SAN JOŚE STATE UNIVERSITY</h4>
-
-              <span>August 2022 — May 2024</span>
-
-              <p class="timeline-text">
-              <p class="timeline-text">GPA: 3.90</p>
-              <p class="timeline-text"><b>Coursework:</b> Database System Principles, Distributed Computing, Computer
-                Communications System, Topics in AI, Mobile Device Development, ML techniques on Graphs
+            <div class="resume-item">
+              <h4>Bachelor of Technology in Computer Science</h4>
+              <h5>2016 - 2020</h5>
+              <p><em>Christ University, Bangalore, India</em></p>
+              <p>Coursework: Programming Paradigms, Cloud Computing, Introduction to Data Science, Internet of Things, Computer Architecture, Computer Networks, Introduction to Artificial Intelligence, Android App Development, Software Product and Project Management, Object Oriented Analysis and Design
               </p>
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">CHRIST UNIVERSIY</h4>
-
-              <span>July 2016 — June 2020</span>
-
-              <p class="timeline-text">
-              <p class="timeline-text">GPA: 3.76</p>
-              <p class="timeline-text"><b>Coursework:</b> Programming Paradigms, Cloud Computing, Introduction to Data
-                Science, Internet of Things, Computer Architecture, Computer Networks, Introduction to Artificial
-                Intelligence, Android App Development, Software Product and Project Management, Object Oriented Analysis
-                and Design
-              </p>
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
             </div>
-
-            <h3 class="h3">Experience</h3>
           </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">SOFTWARE ENGINEER 2</h4>
-              <span>
-                <p>Cerner Corporation</p>
-              </span>
-              <span>April 2022 — July 2022</span>
-
-              <p class="timeline-text">
-              <ul class="list">
-                <li class="list-item timeline-text one">Redesigned a highly coupled monolithic Spring Boot service into microservices reducing page loading time by half, improving the tool adoption rate.</li>
-                <li class="list-item timeline-text two">Developed a web application dashboard with React and Spring Boot to create change requests in BMCRemedy; cut down creation time from 30 mins to 5 seconds.</li>
-                <li class="list-item timeline-text three">Gathered requirements from stakeholders and managed user stories via Jira for four monitoring event fabric projects; Awarded the ‘Engage and Collaborate’ Bravo Award.</li>
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Software Engineer 2</h4>
+              <h5>Apr 2021 - Aug 2022</h5>
+              <p><em>Cerner Corporation, Bangalore</em></p>
+              <ul>
+                <li>Reduced page load time by 50% by refactoring a monolithic Spring Boot service into microservices, boosting tool adoption rate by 40%. Employed Docker and Kubernetes for automated scaling and consistent deployments</li>
+                <li>Developed APIs for automated, zero-downtime data migration of >500K records from a file-based system to PostgreSQL and Elasticsearch for a live application, ensuring uninterrupted service and data integrity</li>
+                <li>Developed a web application dashboard with Spring Boot and React to create change requests in BMCRemedy; cut down creation time from 30 mins to 5 seconds</li>
               </ul>
-              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Software Engineer 1</h4>
+              <h5>Jun 2020 - Mar 2022</h5>
+              <p><em>Cerner Corporation, Bangalore</em></p>
+              <ul>
+                <li>Built real-time device data migration APIs (openNMS to ElasticSearch) with Spring Boot. Crafted a Grafana KPI dashboard to identify chronic issues, slashing device downtime by 20%</li>
+                <li>Built secure admin-only interfaces (Spring Boot, MVC, ADFS) with robust authentication/authorization, enabling self-service associate/device updation by users eliminating need for development effort for each change</li>
+                <li>Contributed to develop backend(Spring boot, Elasticsearch, Apache Kafka) for a tool to gather and identify network device alert types and remotely execute device integrity commands to assess device health and perform initial remediation action based on interrogation commands</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Software Intern</h4>
+              <h5>Dec 2019 - May 2020</h5>
+              <p><em>Cerner Corporation, Bangalore</em></p>
+              <ul>
+                <li>Developed backend and database schema (PostgreSQL, Spring Boot, JUnit) for a monitoring tool prototype. Optimized performance using strategic caching that cut down the event logging time by 80%; scaled to 6 teams</li>
+                <li>Automated the deployment process through PowerAutomate and Jenkins, saving 1 hour per deployment. Embedded PowerBI dashboard to track deployments</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Software Intern</h4>
+              <h5>April 2019 - May 2019</h5>
+              <p><em>Tektronix, Bangalore</em></p>
+              <ul>
+                <li>Developed a monitoring and notification tool for Fluke Vibration sensor to enable the remote management of the device.</li>
+                <li>Extracted vibration sensor readings to AWS IoT Core and DynamoDB. Notified users about problem areas via SMS and email using AWS Lambda triggers.</li>
+                <li>Analyzed data through QuickSight, reduced maintenance of machinery and overall cost by 20%.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-            </li>
+      </div>
+    </section><!-- End Resume Section -->
 
-            <li class="timeline-item">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
 
-              <h4 class="h4 timeline-item-title">SOFTWARE ENGINEER 1</h4>
-              <span>
-                <p>Cerner Corporation</p>
-              </span>
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
 
-              <span>June 2020 — March 2022</span>
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-full">Fullstack Development Projects</li>
+              <li data-filter=".filter-back">Backend Development Projects</li>
+              <li data-filter=".filter-ml">ML Projects</li>
+            </ul>
+          </div>
+        </div>
 
-              <p class="timeline-text">
-                <ul class="list">
-                  <li class="list-item timeline-text one">Designed and implemented REST APIs for real-time migration of device data from openNMS to
-                    ElasticSearch. Identified chronic issues via Grafana visualization, reducing device downtime by 20%.</li>
-                  <li class="list-item timeline-text two">Collaborated with the security team to develop the backend(Java) for ‘AutoPatch’ tool to automatically
-                    patch vulnerabilities; Awarded ‘Commit and Deliver’ Bravo award.</li>
-                </ul>
-              </p>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-            </li>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/projects/project3.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./assets/img/projects/project3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/daniajaison13/iiot-connected-reliability" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
 
-            <li class="timeline-item">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/projects/project2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./assets/img/projects/project2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/daniajaison13/deploy-mate" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-back">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/projects/project1.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./assets/img/projects/project1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/daniajaison13/smart-farm" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
 
-              <h4 class="h4 timeline-item-title">SOFTWARE INTERN</h4>
-              <span>
-                <p>Cerner Corporation</p>
-              </span>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-back">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/projects/project4.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./assets/img/projects/project4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/daniajaison13/car-rental-app" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
 
-              <span>December 2019 — May 2020</span>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-full">
+            <div class="portfolio-wrap">
+              <img src="./assets/img/projects/project5.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="./assets/img/projects/project5.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/daniajaison13/auto-patch" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
 
-              <p class="timeline-text">
-                <ul class="list">
-                  <li class="list-item timeline-text one">Created a database schema and developed backend services (PostgreSQL, Spring Boot, JUnit) for a
-                    monitoring tool prototype that cut down the event logging time by 80%; scaled to 6 teams.</li>
-                  <li class="list-item timeline-text two">Automated the complete applicationndeployment process through PowerAutomate and Jenkins, saving 1 hour
-                    per deployment. Embedded PowerBI dashboard to track deployments.</li>
-                  </ul>
-              </p>
+        </div>
 
-            </li>
+      </div>
+    </section><!-- End Portfolio Section -->
 
-            <li class="timeline-item">
+    <!-- ======= Awards & Extra-Curriculars Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
 
-              <h4 class="h4 timeline-item-title">SOFTWARE INTERN</h4>
-              <span>
-                <p>Tektronix</p>
-              </span>
+        <div class="section-title">
+          <h2>Awards & Extra-Curriculars</h2>
+        </div>
 
-              <span>April 2019 — May 2019</span>
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
 
-              <p class="timeline-text">
-                <ul class="list">
-                  <li class="list-item timeline-text one">Developed a monitoring and notification tool for Fluke Vibration sensor to enable the remote management of the device.</li>
-                  <li class="list-item timeline-text two">Extraacted vibration sensor readings to AWS IoT Core and DynamoDB. Notified users about
-                    problem areas via SMS and email using AWS Lambda triggers.</li>
-                  <li class="list-item timeline-text three">Analyzed data through QuickSight, reduced maintenance of machinery and overall cost by 20%.</li>
-                  </ul>
-              </p>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  1st place in <b>‘PowerApps Programming Challenge’</b> for developing an automated workflow with PowerBI monitoring for deployments, Cerner, 2022
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
-            </li>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Awarded <b>‘Engage and Collaborate’</b> Bravo award by Vijeesh Mohandas for collaborating with the security team to develop the backend (Java) for ‘AutoPatch’ tool to automatically patch vulnerabilities, Cerner 2022
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
-          </ol>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Recognized in the <b>Associate Point Awards</b> program by Director, Pravat Santra, in the category of <b>Commit &amp; Deliver</b> for scaling monitoring solution to Network team, Cerner 2021
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
-        </section>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <b>Commit &amp; Deliver Award</b> selected by stakeholders for developing new logging and notification platform, Cerner 2021
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
-        <!-- <section class="skill">
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <b>Spotlight Award</b>, You’d Better Recognize Program for contribution towards InfraLOG Project, Cerner 2020.
+                  Which proactively monitored the data center for possible outages. Used by over ~100 support engineers across domains such as Network, Storage, Virtualization
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
-          <h3 class="h3 skills-title">My skills</h3>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <b>NOTT Award</b>, 2019 for winning Security Challenge as part of Cerner Security Awareness 2020.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+           
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <b>Global Leader</b>, Student Assistant at International Student Scholar Service
+                  <br><br>
+                  Promoted cross-cultural integration, guiding and mentoring international students. Planned and executed events, providing essential campus resource guidance.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
-          <ul class="skills-list content-card" style="color:white">
-            <li class="timeline-text">Programming: Java • Python • C • JavaScript • HTML • CSS</li>
-            <li class="timeline-text">Frameworks: Spring Boot • React • Angular • REST API • Bootstrap • JMeter • Junit
-              • Node.js</li>
-            <li class="timeline-text">Database: PostgreSQL • MySQL • ElasticSearch • Redis • Hadoop</li>
-            <li class="timeline-text">Tools: Git • Postman • Jira • PowerBI • Grafana • AWS Suite (S3, EC2, IoT Core,
-              DynamoDB)</li>
-            <li class="timeline-text">Software Development: Microservices Architecture • Linux • Jenkins • Agile
-              Development</li>
-          </ul>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <b>Vice President Public Relations</b>, Toastmasters International
+                  <br><br>
+                  Served as VP PR for the term 2021-2022, and an active member of Toastmasters International, a non profit for
+                    promoting public speaking and leadership.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
-        </section> -->
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <b>Student Volunteer</b>, Student Welfare Office
+                  <br><br>
+                  Organized various academic and cultural events like Health camp, Annual Techno Cultural Fest, Engineers' day
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
-      </article>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <b>Volunteer</b>, Aarvi Foundation
+                  <br><br>
+                  NGO to help in the education of underprivileged children.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
 
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
 
+      </div>
+    </section><!-- End Testimonials Section -->
 
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
 
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
 
-      <!--
-        - #PORTFOLIO
-      -->
+        <div class="row" data-aos="fade-in">
 
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>San Jose, California</p>
               </div>
 
-            </button>
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>daniajaison@gmail.com</p>
+              </div>
 
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d406269.30961633555!2d-122.09628252402146!3d37.29563197083106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSan%20Jose%2C%20CA!5e0!3m2!1sen!2sus!4v1680232540624!5m2!1sen!2sus" 
+              frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
 
           </div>
 
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/daniajaison13/smart-farm" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project1.jpeg" alt="smart farm" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Smart Farm</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/daniajaison13/deploy-mate" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project2.jpg" alt="DeployMate" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DeployMate</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://github.com/daniajaison13/iiot-connected-reliability" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project3.png" alt="Notification system for Vibration sensor" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Notification system for Vibration sensor</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project4.png" alt="Car Rental System" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Car Rental System</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project5.jpeg" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">AutoPatch</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-          </ul>
-
-        </section>
-
-      </article>
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <div class="info">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d406269.30961633555!2d-122.09628252402146!3d37.29563197083106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSan%20Jose%2C%20CA!5e0!3m2!1sen!2sus!4v1680232540624!5m2!1sen!2sus"
-              loading="lazy"></iframe>
-          </figure>
-        </section>
+              src="https://docs.google.com/forms/d/e/1FAIpQLScFnNT2VoDqIEfLNZ2SQCP-ELtacS-aeD1kObcar_jnZMS0cg/viewform?embedded=true"
+              width="100%" height="800vh" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div>
+        </div>
+          </div>
 
-        <section class="contact-form" style="text-align: center;">
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLScFnNT2VoDqIEfLNZ2SQCP-ELtacS-aeD1kObcar_jnZMS0cg/viewform?embedded=true"
-            width="100%" height="800vh" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </section>
+          <!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div> -->
 
-      </article>
+        </div>
 
-    </div>
+      </div>
+    </section><!-- End Contact Section -->
 
-  </main>
+  </main><!-- End #main -->
 
+  <!-- ======= Footer ======= -->
+<!-- End  Footer -->
 
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
 </body>
 
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <script src="https://kit.fontawesome.com/8f058e8e3f.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
-  <script>
-  VANTA.WAVES({
-    el: "#body",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    scale: 1.00,
-    scaleMobile: 1.00,
-    color: 0x1a3350,
-    shininess: 24.00,
-    waveHeight: 38.00,
-    waveSpeed: 0.30,
-    zoom: 0.90
-  })
-  </script>
 </html>
